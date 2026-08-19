@@ -1,5 +1,5 @@
 {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "url": "http://149.88.75.117:8089/air780_v2.bin",
     "note": "FOTA 版本信息 (设备端比对用)。发版时：1) 改固件 VERSION 并打包 2) 覆盖服务器上的 air780_v2.bin 3) 把本文件 version 改为新版本号。version 必须比设备当前版本新 (标准语义版本 x.y.z 三段依次比较) 才触发升级\ngradual_release: 灰度开关 (开关即模式) - enabled=true 仅 imei_list 命中的设备升级, 未命中跳过; enabled=false 全量升级",
     "gradual_release": {
